@@ -1,11 +1,15 @@
 def add(x, y):
     print('changed')
-    return x+y
+    return x + y
 
-def mul(x , y):
+
+def mul(x, y):
+    print(x, y)
     return x * y
 
-def sub(x , y):
-    return x- y
 
-print(add(4,5))
+def sub(x , y):
+    return x - y
+
+
+print(add(4, 5))
