@@ -1,4 +1,4 @@
-def add(x, y):
+def add2(x, y):
     print('changed')
     return x + y
 
